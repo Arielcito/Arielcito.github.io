@@ -58,10 +58,25 @@ export const experiencesData = [
     icon: React.createElement(FaReact),
     date: "june 2023 - present",
   },
+  {
+    title: "Freelance developer",
+    location: "Buenos Aires, Argentina",
+    description:
+      "Also the same year i started taking freelance projects mostly done on No-Code applications.",
+    icon: React.createElement(FaReact),
+    date: "june 2023 - present",
+  },
 ] as const;
 
 export const projectsData = [
-  
+  {
+    title: "CorpComment",
+    description:
+      "CorpComment is a platform that allows companies to gather feedback from their employees. It is a fullstack application built with Next.js, Prisma, and PostgreSQL.",
+      imageUrl: corpcommentImg,
+    link: "https://corpcomment.com",
+    tags: ["Next.js", "Prisma", "PostgreSQL"],
+  }
 ] as const;
 
 export const skillsData = [
