@@ -2,9 +2,6 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
@@ -73,7 +70,7 @@ export const projectsData = [
     title: "CorpComment",
     description:
       "CorpComment is a platform that allows companies to gather feedback from their employees. It is a fullstack application built with Next.js, Prisma, and PostgreSQL.",
-      imageUrl: corpcommentImg,
+    imageUrl: "",
     link: "https://corpcomment.com",
     tags: ["Next.js", "Prisma", "PostgreSQL"],
   }
