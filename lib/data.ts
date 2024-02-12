@@ -2,6 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import EspiaPorElMundoImg from "../public/espia-por-el-mundo.png";
+import MelseraImg from "../public/melsera.png";
+import PowerEnLineaImg from "../public/powerenlinea.png";
 
 export const links = [
   {
@@ -67,12 +70,28 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Espia Por El mundo",
+    description:"Pia Bottero, Argentina's influencer, envisioned a platform where her 200,000+ followers could access incredible travel and hotel discounts, while also sharing their experiences through the blog section.",
+    imageUrl: EspiaPorElMundoImg,
+    link: "https://www.espiaporelmundo.com/",
+    tags: ["Webflow"],
+  }
+  ,
+  {
+    title: "Power En linea",
     description:
-      "CorpComment is a platform that allows companies to gather feedback from their employees. It is a fullstack application built with Next.js, Prisma, and PostgreSQL.",
-    imageUrl: "",
-    link: "https://corpcomment.com",
-    tags: ["Next.js", "Prisma", "PostgreSQL"],
+      "Empowering Digital Success. With 50,000+ Instagram followers, this expert digital marketing academy offers over 6 years of experience, a team of 20+ professionals, and 100+ global clients. ",
+    imageUrl: PowerEnLineaImg,
+    link: "https://poweracademia.webflow.io/",
+    tags: ["Webflow"],
+  },
+  {
+    title: "Melsera",
+    description:
+      "Landing page of my Agency.",
+    imageUrl: MelseraImg,
+    link: "https://www.melsera.dev/",
+    tags: ["Webflow"],
   }
 ] as const;
 
