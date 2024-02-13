@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import EspiaPorElMundoImg from "../public/espia-por-el-mundo.png";
-import MelseraImg from "../public/melsera.png";
+import MelseraImg from "../public/Melsera.png";
 import PowerEnLineaImg from "../public/powerenlinea.png";
 
 export const links = [
