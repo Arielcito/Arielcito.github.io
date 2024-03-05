@@ -1,3 +1,8 @@
+
+import path from "path";
+import fs from 'fs';
+import matter from "gray-matter";
+
 export const validateString = (
   value: unknown,
   maxLength: number
@@ -24,3 +29,20 @@ export const getErrorMessage = (error: unknown): string => {
 
   return message;
 };
+
+export const getMarkdownFile = async ( post :string ) => {
+  const filePath = path.join(process.cwd(), '/posts/',post+'.md');
+  const fileContents = fs.readFileSync(filePath, 'utf8');
+  
+  // Use gray-matter to parse the post metadata section
+  const { data, content } = matter(fileContents);
+
+  // Convert the data to JSON and generate the markdownString
+  return {
+    props: {
+      content,
+      data: JSON.parse(JSON.stringify(data)),
+    },
+  };
+};
+

@@ -13,3 +13,28 @@ html.dark {
 .borderBlack {
   @apply border border-black/10;
 }
+
+.blog-page {
+  width: 80%;
+}	
+
+.blog-page h1{
+  margin-top: 23px;
+  margin-bottom: 23px;
+  font-size: 35px;
+  text-align: center;
+}
+
+.blog-page p{
+  margin-top: 16px;
+  margin-bottom: 16px;
+  line-height: 2;
+}
+
+.date {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  text-align: center;
+  color: #6b7280;
+}	

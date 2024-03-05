@@ -1,4 +1,5 @@
 import About from "@/components/about";
+import BlogPage from "@/components/blog";
 import Contact from "@/components/contact";
 import Experience from "@/components/experience";
 import Intro from "@/components/intro";
@@ -12,9 +13,11 @@ export default function Home() {
       <Intro />
       <SectionDivider />
       <About />
+      <BlogPage />
       <Projects />
       <Skills />
       <Experience />
+      <SectionDivider />
       <Contact />
     </main>
   );

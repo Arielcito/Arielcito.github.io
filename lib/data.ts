@@ -28,6 +28,10 @@ export const links = [
     hash: "#experience",
   },
   {
+    name: "Blog",
+    hash: "#blog",
+  },
+  {
     name: "Contact",
     hash: "#contact",
   },
@@ -115,4 +119,28 @@ export const skillsData = [
   "Python",
   "Django",
   "Framer Motion",
+] as const;
+
+export const blogsData = [
+  {
+    title: "Trabajando en equipo como ingeniero",
+    description:
+      "Si mañana te atropella un colectivo, tu proyecto puede seguir en funcionamiento?",
+    slug: "Trabajando-en-equipo-como-ingeniero",
+    date: "January, 1 2024",
+  },
+  {
+    title: "How to create a portfolio",
+    description:
+      "I will show you how to create a portfolio using Next.js and Webflow.",
+    slug: "how-to-create-a-portfolio",
+    date: "10/2021",
+  },
+  {
+    title: "How to create a website",
+    description:
+      "I will show you how to create a website using Next.js and Webflow.",
+    slug: "how-to-create-a-website",
+    date: "10/2021",
+  },
 ] as const;
