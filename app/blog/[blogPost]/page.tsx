@@ -18,7 +18,9 @@ export default async function BlogPost({params}: {params: {blogPost: string}}) {
             </h1>
             <span className="text-gray-500 dark:text-gray-400 date">Posted on {blogData.props.data.date}</span>
           </div>
-        <ReactMarkdown children={blogData.props.content} />
+        <ReactMarkdown>
+          {blogData.props.content}
+        </ReactMarkdown>
         </article>
       </div>
   );
