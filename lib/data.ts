@@ -96,6 +96,14 @@ export const projectsData = [
     imageUrl: MelseraImg,
     link: "https://www.melsera.dev/",
     tags: ["Webflow"],
+  },
+  {
+    title: "Seshat",
+    description:
+      "Ecommerce for a Wholesale Distributor.",
+    imageUrl: MelseraImg,
+    link: "https://www.seshatdistribuidora.com/",
+    tags: ["Webflow"],
   }
 ] as const;
 
@@ -126,7 +134,7 @@ export const blogsData = [
     title: "Trabajando en equipo como ingeniero",
     description:
       "Si mañana te atropella un colectivo, tu proyecto puede seguir en funcionamiento?",
-    slug: "Trabajando-en-equipo-como-ingeniero",
+    slug: "trabajando-en-equipo-como-ingeniero",
     date: "January, 1 2024",
   },
 ] as const;
