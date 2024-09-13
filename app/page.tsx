@@ -6,6 +6,7 @@ import Intro from "@/components/intro";
 import Projects from "@/components/projects";
 import SectionDivider from "@/components/section-divider";
 import Skills from "@/components/skills";
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Experience />
       <SectionDivider />
       <Contact />
+      <Link href="/terms-and-condition">Términos y Condiciones</Link>
     </main>
   );
 }

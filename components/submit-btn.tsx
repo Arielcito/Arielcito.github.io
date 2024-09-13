@@ -1,8 +1,9 @@
 import React from "react";
 import { FaPaperPlane } from "react-icons/fa";
+import { useState } from "react";
 
 export default function SubmitBtn() {
-  const pending = false;
+  const [pending, setPending] = useState(false);
 
   return (
     <button
