@@ -14,7 +14,6 @@ export default function Home() {
       <Intro />
       <SectionDivider />
       <About />
-      <BlogPage />
       <Projects />
       <Skills />
       <Experience />
